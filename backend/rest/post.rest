@@ -1,0 +1,28 @@
+###
+
+POST http://localhost:5000/blog 
+Content-Type: application/json
+
+{
+    "title": "Mitt andra inlägg",
+    "post": "Lorem ipsum dolor sit"
+}
+
+###
+
+GET http://localhost:5000/blog
+
+###
+
+PUT http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "_id": "6285f51bc70845da84b1329e",
+    "title": "Awesome Jacket",
+    "price": 1000
+}
+
+###
+
+DELETE http://localhost:5000/products/
