@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
-const ProductModel = require('../models/posts')
+const ProductModel = require('../models/posts');
+const cors = require('cors');
+
+router.use(cors());
 
 /* GET users listing. */
 router.get('/', async (req, res) => {

@@ -3,6 +3,7 @@ var path = require('path');
 const mongoose = require("mongoose");
 var blogRouter = require('./routes/blog');
 var app = express();
+var cors = require('cors');
 
 async function init() {
     try {
